@@ -21,7 +21,7 @@ bot.on('message', (event) => {
     commandFood(event)
   }
 })
-
+// posetback
 bot.on('postback', (event) => {
   console.log(event)
   if (event.postback.data === 'action=addFriend') {
